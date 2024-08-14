@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    color: #4a148c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif; /* Updated font for the header */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4a148c;
+}
+
+.hidden {
+    display: none;
+}
+
+#subjectsContainer {
+    margin-bottom: 20px;
+}
+
+.subject {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #4a148c;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#gpaResult, #cgpaResult {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace; /* Updated font for the footer */
+    margin-top: 50px;
+    font-size: 16px;
+    color: #7b1fa2;
+}

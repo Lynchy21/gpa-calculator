@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Google Fonts for Roboto Slab -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap">
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GPA Calculator for SIT</h1>
+        <h2>First Year '23-24</h2>
+        <div class="buttons">
+            <button id="sem1">Sem 1</button>
+            <button id="sem2">Sem 2</button>
+        </div>
+        <form id="gradeForm" class="hidden">
+            <div id="subjectsContainer"></div>
+            <button type="button" id="calculateGPA" class="hidden">Calculate GPA</button>
+        </form>
+        <button type="button" id="calculateCGPA" class="hidden">Calculate CGPA</button>
+        <div id="cgpaInputs" class="hidden">
+            <input type="number" id="gpa1" placeholder="Enter GPA 1">
+            <input type="number" id="gpa2" placeholder="Enter GPA 2">
+            <button type="button" id="submitCGPA">Submit</button>
+        </div>
+        <div id="gpaResult" class="hidden"></div>
+        <div id="cgpaResult" class="hidden"></div>
+    </div>
+    <footer>
+        Made with ❤️ by Abhishek Kumaran A J - 2024 ©
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
