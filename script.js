@@ -105,7 +105,9 @@ document.getElementById('submitCGPA').addEventListener('click', function() {
         return;
     }
 
-    const cgpa = (gpa1 + gpa2) / 2;
+    const totalcredssem1 = 20;
+    const totalcredssem2 = 18;
+    const cgpa = ((gpa1 * totalcredssem1) + (gpa2 * totalcredssem2)) / (totalcredssem1 + totalcredssem2);
     document.getElementById('cgpaResult').textContent = `Your CGPA is: ${cgpa.toFixed(2)}`;
     document.getElementById('cgpaResult').classList.remove('hidden');
 });
